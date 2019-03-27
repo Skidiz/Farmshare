@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:layout_gravity="center|bottom"
+        android:gravity="bottom"
+        app:layout_heightPercent="30%">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center|bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/agent_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:foreground="?attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:padding="@dimen/menu_paddin_size"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/choose_bg_button"
+                    android:layout_width="@dimen/menu_box_size"
+                    android:layout_height="@dimen/menu_box_size"
+                    android:padding="@dimen/menu_image_paddin"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/agentwhite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/colorWhite"
+                    android:text="Agent"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/merchant_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@color/blueWhite"
+                android:padding="@dimen/menu_paddin_size"
+                android:foreground="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/type_text_btn"
+                    android:layout_width="@dimen/menu_box_size"
+                    android:layout_height="@dimen/menu_box_size"
+                    android:padding="@dimen/menu_image_paddin"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/merchantwhite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/colorWhite"
+                    android:text="Merchant"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/investor_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@color/yellowWhite"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="@dimen/menu_paddin_size">
+
+                <ImageView
+                    android:id="@+id/text_seize_btn"
+                    android:layout_width="@dimen/menu_box_size"
+                    android:layout_height="@dimen/menu_box_size"
+                    android:padding="@dimen/menu_image_paddin"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/investorwhite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/colorWhite"
+                    android:text="Investor"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/resources_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@color/lightBluewWhite"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="@dimen/menu_paddin_size">
+
+                <ImageView
+                    android:id="@+id/change_font_btn"
+                    android:layout_width="@dimen/menu_box_size"
+                    android:layout_height="@dimen/menu_box_size"
+                    android:padding="@dimen/menu_image_paddin"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/resourceswhite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/colorWhite"
+                    android:text="Resources"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="@dimen/menu_paddin_size">
+
+                <ImageView
+                    android:id="@+id/text_paint_btn"
+                    android:layout_width="@dimen/menu_box_size"
+                    android:layout_height="@dimen/menu_box_size"
+                    android:padding="@dimen/menu_image_paddin"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:src="@drawable/profilewhite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor="@color/colorWhite"
+                    android:text="Profile"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

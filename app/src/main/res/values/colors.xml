@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09b83e</color>
+    <color name="colorPrimaryDark">#131418</color>
+    <color name="colorAccent">#131418</color>
+    <color name="textColor">#131418</color>
+    <color name="lineColor">#d0d0d0</color>
+    <color name="textBoxColor">#acabab</color>
+    <color name="textesColor">#2b2b2c</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#2980b9</color>
+    <color name="fadeWhite">#7f8c8d</color>
+    <color name="blueWhite">#5241b9</color>
+    <color name="yellowWhite">#b9a441</color>
+    <color name="purplewWhite">#b941a6</color>
+    <color name="lightBluewWhite">#41b9af</color>
+
+</resources>

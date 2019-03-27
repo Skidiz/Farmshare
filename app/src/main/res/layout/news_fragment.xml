@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_gravity="center_vertical"
+    android:padding="10dp">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        cardCornerRadius="@dimen/card_album_radius"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FarmShare is the best agro company of the year"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/splash" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Insiders say Prince Harry and Meghan Markle have set a game plan to ensure their child has a normal upbringing which will include doing chores and using public transport.
+
+The Duke and Duchess of Sussex will become parents next year and they want to bring up children who know the values of normal things in life.
+
+Meghan, 37, is said to be eager to make sure her children are not spoiled, and will even take her kids on a subway or the Tube.
+
+Speaking to US Weekly, royal correspondent Omid Scobie said Harry and Meghan will be changing the royal parenting rules, and have set a game plan for how they want to raise their children.\n
+Insiders say Prince Harry and Meghan Markle have set a game plan to ensure their child has a normal upbringing which will include doing chores and using public transport.
+
+The Duke and Duchess of Sussex will become parents next year and they want to bring up children who know the values of normal things in life.
+
+Meghan, 37, is said to be eager to make sure her children are not spoiled, and will even take her kids on a subway or the Tube.
+
+Speaking to US Weekly, royal correspondent Omid Scobie said Harry and Meghan will be changing the royal parenting rules, and have set a game plan for how they want to raise their children.
+"
+                    android:textColor="@color/fadeWhite" />
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

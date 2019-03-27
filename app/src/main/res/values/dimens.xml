@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edit_text_paddin">6dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menu_text_size">11dp</dimen>
+    <dimen name="menu_paddin_size">8dp</dimen>
+    <dimen name="menu_box_size">40dp</dimen>
+    <dimen name="menu_image_paddin">10dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="page_button_size">120dp</dimen>
+    <dimen name="page_button_padding">5dp</dimen>
+    <dimen name="box_width">100dp</dimen>
+    <dimen name="image_width">60dp</dimen>
+</resources>

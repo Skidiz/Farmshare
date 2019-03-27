@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FarmShare</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_login">Login</string>
+    <string name="colums">:</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_agent">Agent</string>
+    <string name="title_merchant">Merchant</string>
+    <string name="title_investor">Investor</string>
+    <string name="title_resources">Resources</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="title_activity_agent">Agent</string>
+    <string name="title_activity_merchant">Merchant</string>
+    <string name="title_activity_investor">Investor</string>
+    <string name="title_activity_create_farm">CreateFarm</string>
+    <string name="title_activity_investor_portfolio">Investor_portfolio</string>
+</resources>

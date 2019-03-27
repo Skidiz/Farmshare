@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:background="@color/colorWhite"
+    tools:showIn="@layout/activity_login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fs" />
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:textColor="@color/fadeWhite"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lineColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="EMAIL ADDRESS" />
+
+        <EditText
+            android:id="@+id/loginEmailEd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="@dimen/edit_text_paddin"
+            android:inputType="textEmailAddress"
+            android:background="@color/textBoxColor"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="PASSWORD" />
+
+        <EditText
+            android:id="@+id/loginPasswordEd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="@dimen/edit_text_paddin"
+            android:inputType="textPassword"
+            android:background="@color/textBoxColor"/>
+
+
+        <TextView
+            android:id="@+id/lostPassTv"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@color/colorBlue"
+            android:text="Lost Password?" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="LOG IN"
+            android:textColor="@color/textColor"
+            android:background="@color/colorPrimary"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
